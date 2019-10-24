@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="-5dp"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/simpleDraweeView_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/img_hasgif_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/simpleDraweeView_one"
+            android:layout_alignRight="@+id/simpleDraweeView_one"
+            android:src="@drawable/po_gif" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/simpleDraweeView_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/img_hasgif_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/simpleDraweeView_two"
+            android:layout_alignRight="@+id/simpleDraweeView_two"
+            android:src="@drawable/po_gif" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_three"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/simpleDraweeView_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/img_hasgif_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/simpleDraweeView_three"
+            android:layout_alignRight="@+id/simpleDraweeView_three"
+            android:src="@drawable/po_gif" />
+    </RelativeLayout>
+</LinearLayout>

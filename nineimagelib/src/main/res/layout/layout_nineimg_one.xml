@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/simpleDraweeView_one"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerVertical="true"
+        android:scaleType="fitCenter"/>
+
+    <ImageView
+        android:id="@+id/img_hasgif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/simpleDraweeView_one"
+        android:layout_alignRight="@+id/simpleDraweeView_one"
+        android:src="@drawable/po_gif" />
+
+</RelativeLayout>
