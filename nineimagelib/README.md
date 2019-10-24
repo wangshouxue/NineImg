@@ -8,7 +8,6 @@
    QFNineImage是类似朋友圈的九宫格图片，当只有一张图片的时候显示大图；当只有4张图时，以2*2的方式显示；其他都是按照3列方式显示
 
 ### 引入方式
-    implementation 'com.qianfan.qfui:nineimage:1.0.0'
 
 ### 使用 
    * xml中
